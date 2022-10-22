@@ -16,7 +16,7 @@
 <body>
     <nav>
         <div class="nav-wrapper ftl-logo">
-            <a href="/"><span>FTL</span>  Weather</a>
+            <a href="/"><span>FTL</span> Weather</a>
             <span class="right grey-text text-darken-1">
                 <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
             </span>
@@ -24,40 +24,47 @@
     </nav>
 
     <ul id="side-menu" class="sidenav side-menu">
-        <br/>
+        <br />
         <li><a href="/" class="waves-effect"><i class="material-icons">home</i>Home</a></li>
-        <li><a href="/pages/gov-feeds.html" class="waves-effect"><i class="material-icons">dashboard</i>GOV RSS Feeds</a></li>
-	    <li><a href="/pages/preparedness.html" class="waves-effect"><i class="material-icons">add_box</i>Resources</a></li>
-        <li><a href="mailto:contact@ftl.com?subject=Contact from FTL Weather App" target="_blank" class="waves-effect"><i class="material-icons">mail_outline</i>Contact</a>
+        <li><a href="/pages/gov-feeds.html" class="waves-effect"><i class="material-icons">dashboard</i>GOV RSS
+                Feeds</a></li>
+        <li><a href="/pages/preparedness.html" class="waves-effect"><i class="material-icons">add_box</i>Resources</a>
+        </li>
+        <li><a href="mailto:contact@ftl.com?subject=Contact from FTL Weather App" target="_blank"
+                class="waves-effect"><i class="material-icons">mail_outline</i>Contact</a>
 
         </li>
     </ul>
 
     <!-- Windly  -->
-    <br/>
+    <br />
     <h5 class="z-depth-0 feed-head head-1">Fort Lauderdale Weather Forecast</h5>
 
-        <div class="flg-resp-container windly">
-            <link href="https://www.fortlauderdale.gov/home/showpublisheddocument/67879/637991800836900000" rel="stylesheet">
-        <iframe title="Windly Forecast" src="https://embed.windy.com/embed2.html?lat=25.867&amp;lon=-80.123&amp;detailLat=26.090&amp;detailLon=-80.123&amp;width=650&amp;height=450&amp;zoom=9&amp;level=surface&amp;overlay=wind&amp;product=ecmwf&amp;menu=&amp;message=&amp;marker=&amp;calendar=now&amp;pressure=&amp;type=map&amp;location=coordinates&amp;detail=true&amp;metricWind=default&amp;metricTemp=default&amp;radarRange=-1" width="950" height="600" frameborder="0"></iframe>
-        </div>
- 
-
- <br/><br/>
-
- <!-- Weather Bug Forecast -->
- <h5 class="z-depth-0 feed-head head-1">WeatherBug Forecast </h5>
- <div style="overflow: hidden; margin:-14px auto 88px; max-width: 1260px;">
-
-        <iframe id="weather-bug" title="Weather Bug Forecast" src="https://www.weatherbug.com/weather-forecast/now/fort-lauderdale-fl-33317"></iframe>
+    <div class="flg-resp-container windly">
+        <link href="https://www.fortlauderdale.gov/home/showpublisheddocument/67879/637991800836900000"
+            rel="stylesheet">
+        <iframe title="Windly Forecast"
+            src="https://embed.windy.com/embed2.html?lat=25.867&amp;lon=-80.123&amp;detailLat=26.090&amp;detailLon=-80.123&amp;width=650&amp;height=450&amp;zoom=9&amp;level=surface&amp;overlay=wind&amp;product=ecmwf&amp;menu=&amp;message=&amp;marker=&amp;calendar=now&amp;pressure=&amp;type=map&amp;location=coordinates&amp;detail=true&amp;metricWind=default&amp;metricTemp=default&amp;radarRange=-1"
+            width="950" height="600" frameborder="0"></iframe>
     </div>
 
 
-     <footer>
-  
-        <a class="footer-link right" href="https://www.fortlauderdale.gov/" target="_blank">www.fortlauderdale.gov</a>
-   
-     </footer>
+    <br /><br />
+
+    <!-- Weather Bug Forecast -->
+    <h5 class="z-depth-0 feed-head head-1">WeatherBug Forecast </h5>
+    <div style="overflow: hidden; margin:-14px auto 88px; max-width: 1260px;">
+
+        <iframe id="weather-bug" title="Weather Bug Forecast"
+            src="https://www.weatherbug.com/weather-forecast/now/fort-lauderdale-fl-33317"></iframe>
+    </div>
+
+
+    <footer>
+
+        <a class="footer-link right" href="/" target="_blank">www.fortlauderdale.gov</a>
+
+    </footer>
 
     <script src="/js/ui.js"></script>
     <script src="/js/app.js"></script>
